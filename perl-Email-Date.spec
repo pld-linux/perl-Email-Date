@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	Date
-Summary:	Email::Date - Find and Format Date Headers
+Summary:	Email::Date - find and format Date headers
 Summary(pl):	Email::Date - znajdywanie i formatowanie nag³ówków Date
 Name:		perl-Email-Date
 Version:	1.03
