@@ -8,19 +8,20 @@
 Summary:	Email::Date - find and format Date headers
 Summary(pl):	Email::Date - znajdywanie i formatowanie nag³ówków Date
 Name:		perl-Email-Date
-Version:	1.03
+Version:	1.101
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	308f00689a06dcf73799c1f7d0d004c6
+# Source0-md5:	38019e955a23f1cdb9f94e37000c87b8
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Email-Simple >= 1.9
 BuildRequires:	perl-TimeDate >= 2.27
 BuildRequires:	perl-Time-Piece >= 1.08
+BuildRequires:	perl-Email-Abstract >= 2.10
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
