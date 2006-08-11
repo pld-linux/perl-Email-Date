@@ -18,10 +18,10 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl-Email-Abstract >= 2.10
 BuildRequires:	perl-Email-Simple >= 1.9
 BuildRequires:	perl-TimeDate >= 2.27
 BuildRequires:	perl-Time-Piece >= 1.08
-BuildRequires:	perl-Email-Abstract >= 2.10
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
