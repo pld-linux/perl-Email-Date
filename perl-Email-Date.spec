@@ -20,6 +20,8 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Email-Abstract >= 2.10
 BuildRequires:	perl-Email-Simple >= 1.9
+BuildRequires:	perl-Test-Pod >= 1.14
+BuildRequires:	perl-Test-Pod-Coverage >= 1.08
 BuildRequires:	perl-TimeDate >= 2.27
 BuildRequires:	perl-Time-Piece >= 1.08
 %endif
