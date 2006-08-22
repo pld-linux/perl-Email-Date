@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	38019e955a23f1cdb9f94e37000c87b8
+URL:		http://search.cpan.org/dist/Email-Date/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -22,8 +23,8 @@ BuildRequires:	perl-Email-Abstract >= 2.10
 BuildRequires:	perl-Email-Simple >= 1.9
 BuildRequires:	perl-Test-Pod >= 1.14
 BuildRequires:	perl-Test-Pod-Coverage >= 1.08
-BuildRequires:	perl-TimeDate >= 2.27
 BuildRequires:	perl-Time-Piece >= 1.08
+BuildRequires:	perl-TimeDate >= 2.27
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
