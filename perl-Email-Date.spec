@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Date
 Summary:	Email::Date - find and format Date headers
-Summary(pl):	Email::Date - znajdywanie i formatowanie nag³ówków Date
+Summary(pl.UTF-8):   Email::Date - znajdywanie i formatowanie nagÅ‚Ã³wkÃ³w Date
 Name:		perl-Email-Date
 Version:	1.101
 Release:	1
@@ -41,16 +41,16 @@ For this reason, the tedious process of looking for a valid date has
 been encapsulated in this software. Further, the process of creating
 RFC compliant date strings is also found in this software.
 
-%description -l pl
-RFC 2822 definiuje nag³ówek Date: (zawieraj±cy datê). Okre¶la ten
-nag³ówek jako obowi±zkow± czê¶æ listu. Sk³adnia nag³ówków daty jest
-jasno opisana. Mimo to wiele programów ¼le tworzy ten nag³ówek. Bardzo
-¼le. Albo nie do³±cza go w ogóle. Zwykle zmusza to do szukania daty
-gdzie¶ indziej z nadziej± znalezienia czego¶.
+%description -l pl.UTF-8
+RFC 2822 definiuje nagÅ‚Ã³wek Date: (zawierajÄ…cy datÄ™). OkreÅ›la ten
+nagÅ‚Ã³wek jako obowiÄ…zkowÄ… czÄ™Å›Ä‡ listu. SkÅ‚adnia nagÅ‚Ã³wkÃ³w daty jest
+jasno opisana. Mimo to wiele programÃ³w Åºle tworzy ten nagÅ‚Ã³wek. Bardzo
+Åºle. Albo nie doÅ‚Ä…cza go w ogÃ³le. Zwykle zmusza to do szukania daty
+gdzieÅ› indziej z nadziejÄ… znalezienia czegoÅ›.
 
-Z tego powodu nudny proces poszukiwania poprawnej daty zosta³
-opakowany w ten pakiet. Co wiêcej, proces tworzenia ³añcuchów daty
-zgodnych z RFC tak¿e mo¿na tu znale¼æ.
+Z tego powodu nudny proces poszukiwania poprawnej daty zostaÅ‚
+opakowany w ten pakiet. Co wiÄ™cej, proces tworzenia Å‚aÅ„cuchÃ³w daty
+zgodnych z RFC takÅ¼e moÅ¼na tu znaleÅºÄ‡.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
