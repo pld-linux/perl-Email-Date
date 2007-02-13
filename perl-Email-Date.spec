@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Date
 Summary:	Email::Date - find and format Date headers
-Summary(pl.UTF-8):   Email::Date - znajdywanie i formatowanie nagłówków Date
+Summary(pl.UTF-8):	Email::Date - znajdywanie i formatowanie nagłówków Date
 Name:		perl-Email-Date
 Version:	1.101
 Release:	1
