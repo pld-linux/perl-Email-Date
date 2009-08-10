@@ -9,7 +9,7 @@ Summary:	Email::Date - find and format Date headers
 Summary(pl.UTF-8):	Email::Date - znajdywanie i formatowanie nagłówków Date
 Name:		perl-Email-Date
 Version:	1.103
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,6 +20,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Email-Abstract >= 2.10
+BuildRequires:	perl-Email-Date-Format >= 1.000
 BuildRequires:	perl-Email-Simple >= 1.9
 BuildRequires:	perl-Test-Pod >= 1.14
 BuildRequires:	perl-Test-Pod-Coverage >= 1.08
